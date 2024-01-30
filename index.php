@@ -180,6 +180,10 @@ function initUI(){
 <h1>本机-测速</h1>
 <div id="startStopBtn" onclick="startStop()"></div>
 <div id="test">
+	<div class="announcement">
+	     <h2></h2>
+    <p>本页面仅用于测试设备与服务器之间的速度，即在网络良好的情况下测试服务器的真实带宽</p>
+</div>
 	<div id="progressBar"><div id="progress"></div></div>
 	<div class="testGroup">
 		<div class="testArea">
